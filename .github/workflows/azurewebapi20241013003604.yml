@@ -2,7 +2,7 @@ name: Build and deploy .NET Core application to Web App azurewebapi2024101300360
 on:
   push:
     branches:
-    - dotnet-api
+    - main
 env:
   AZURE_WEBAPP_NAME: azurewebapi20241013003604
   AZURE_WEBAPP_PACKAGE_PATH: ./publish
